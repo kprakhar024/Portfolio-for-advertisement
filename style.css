@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCraft Studio | Websites for Small Businesses</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <span>W</span><span>e</span><span>b</span><span>C</span><span>r</span><span>a</span><span>f</span><span>t</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-code"></i>
+                Web<span>Craft</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact" class="nav-cta">Get Started</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">🚀 Trusted by 200+ Small Businesses</div>
+                <h1>We Build <span class="typed-text" id="typed"></span><span class="cursor">|</span><br>Stunning Websites</h1>
+                <p>Helping restaurants, cafés, bakeries, and local businesses stand out online with beautiful, fast, and affordable websites that bring in more customers.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">
+                        Start Your Project
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#portfolio" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        View Our Work
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <strong>200+</strong>
+                        <span>Websites Built</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <strong>98%</strong>
+                        <span>Happy Clients</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <strong>5★</strong>
+                        <span>Average Rating</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="browser-mockup">
+                    <div class="browser-bar">
+                        <div class="browser-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="browser-url">www.your-restaurant.com</div>
+                    </div>
+                    <div class="browser-content">
+                        <div class="mock-hero">
+                            <div class="mock-nav">
+                                <div class="mock-logo-block"></div>
+                                <div class="mock-nav-links">
+                                    <div class="mock-link"></div>
+                                    <div class="mock-link"></div>
+                                    <div class="mock-link"></div>
+                                </div>
+                            </div>
+                            <div class="mock-headline"></div>
+                            <div class="mock-subline"></div>
+                            <div class="mock-btn-block"></div>
+                            <div class="mock-cards">
+                                <div class="mock-card">
+                                    <div class="mock-img"></div>
+                                    <div class="mock-text"></div>
+                                    <div class="mock-text short"></div>
+                                </div>
+                                <div class="mock-card">
+                                    <div class="mock-img"></div>
+                                    <div class="mock-text"></div>
+                                    <div class="mock-text short"></div>
+                                </div>
+                                <div class="mock-card">
+                                    <div class="mock-img"></div>
+                                    <div class="mock-text"></div>
+                                    <div class="mock-text short"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-card card-1">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Mobile Friendly</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-bolt"></i>
+                    <span>Super Fast</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-search"></i>
+                    <span>SEO Ready</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img-main">
+                        <div class="img-placeholder">
+                            <i class="fas fa-users"></i>
+                            <span>Our Creative Team</span>
+                        </div>
+                    </div>
+                    <div class="about-img-secondary">
+                        <div class="img-placeholder small">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="experience-badge">
+                        <strong>8+</strong>
+                        <span>Years Experience</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="section-label">About Us</div>
+                    <h2>We Help Local Businesses <span>Thrive Online</span></h2>
+                    <p class="about-lead">We're a passionate team of designers and developers who specialize in creating websites exclusively for small businesses — restaurants, cafés, bakeries, salons, fitness studios, and more.</p>
+                    <p>We understand that as a small business owner, you're busy running your business. That's why we handle everything — from design to launch — so you can focus on what you do best: serving your customers.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <div>
+                                <h4>Industry Experts</h4>
+                                <p>Specialized in restaurant & café websites</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-hand-holding-heart"></i>
+                            </div>
+                            <div>
+                                <h4>Small Business Focus</h4>
+                                <p>Affordable pricing tailored for you</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div>
+                                <h4>Ongoing Support</h4>
+                                <p>We're here whenever you need us</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div>
+                                <h4>Quick Turnaround</h4>
+                                <p>Your site live in 7–14 days</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">What We Offer</div>
+                <h2>Services Tailored for <span>Your Business</span></h2>
+                <p>Everything you need to establish a powerful online presence and attract more customers.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Custom Web Design</h3>
+                    <p>Beautiful, unique designs that match your brand identity and appeal to your target customers.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom layouts</li>
+                        <li><i class="fas fa-check"></i> Brand-matched colors</li>
+                        <li><i class="fas fa-check"></i> Professional imagery</li>
+                    </ul>
+                </div>
+                <div class="service-card featured">
+                    <div class="featured-tag">Most Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Restaurant Websites</h3>
+                    <p>Specialized websites for restaurants & cafés with menus, reservations, and online ordering.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Digital menu system</li>
+                        <li><i class="fas fa-check"></i> Online reservations</li>
+                        <li><i class="fas fa-check"></i> Order integration</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Optimization</h3>
+                    <p>Your website will look and work perfectly on all devices — phones, tablets, and desktops.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Responsive design</li>
+                        <li><i class="fas fa-check"></i> Touch-friendly</li>
+                        <li><i class="fas fa-check"></i> Fast loading</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Local SEO</h3>
+                    <p>Get found on Google when customers search for businesses like yours in your area.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Google Business setup</li>
+                        <li><i class="fas fa-check"></i> Local keywords</li>
+                        <li><i class="fas fa-check"></i> Map integration</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Online Ordering</h3>
+                    <p>Let your customers order food or book services directly from your website.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Menu management</li>
+                        <li><i class="fas fa-check"></i> Payment processing</li>
+                        <li><i class="fas fa-check"></i> Order notifications</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics & Growth</h3>
+                    <p>Track your website performance and understand your customers better with analytics.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Visitor tracking</li>
+                        <li><i class="fas fa-check"></i> Monthly reports</li>
+                        <li><i class="fas fa-check"></i> Conversion tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Our Work</div>
+                <h2>Websites We've <span>Crafted</span></h2>
+                <p>Take a look at some of the beautiful websites we've built for small businesses just like yours.</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="restaurant">Restaurants</button>
+                <button class="filter-btn" data-filter="cafe">Cafés</button>
+                <button class="filter-btn" data-filter="bakery">Bakeries</button>
+                <button class="filter-btn" data-filter="other">Others</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="restaurant">
+                    <div class="portfolio-img">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>The Rustic Table</h4>
+                                <p>Fine Dining Restaurant</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-tag">Restaurant</span>
+                        <h3>The Rustic Table</h3>
+                        <p>A warm, inviting website with online reservations and a beautiful digital menu.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="cafe">
+                    <div class="portfolio-img">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #8B4513, #D2691E);">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Brew & Bean</h4>
+                                <p>Artisan Coffee Shop</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-tag">Café</span>
+                        <h3>Brew & Bean</h3>
+                        <p>A cozy café website with loyalty program integration and online ordering.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="bakery">
+                    <div class="portfolio-img">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #f39c12, #e67e22);">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Golden Crust Bakery</h4>
+                                <p>Artisan Bakery</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-tag">Bakery</span>
+                        <h3>Golden Crust Bakery</h3>
+                        <p>A delightful bakery website with custom cake ordering and gallery showcase.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="restaurant">
+                    <div class="portfolio-img">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #2ecc71, #27ae60);">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Green Garden Bistro</h4>
+                                <p>Vegan Restaurant</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-tag">Restaurant</span>
+                        <h3>Green Garden Bistro</h3>
+                        <p>A fresh, organic-themed website highlighting farm-to-table dining experience.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="cafe">
+                    <div class="portfolio-img">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #9b59b6, #8e44ad);">
+                            <i class="fas fa-ice-cream"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Sweet Spot Café</h4>
+                                <p>Dessert Café</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-tag">Café</span>
+                        <h3>Sweet Spot Café</h3>
+                        <p>A playful, colorful website for a dessert café with online ordering system.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="other">
+                    <div class="portfolio-img">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #3498db, #2980b9);">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Style Studio Salon</h4>
+                                <p>Hair Salon</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-tag">Salon</span>
+                        <h3>Style Studio Salon</h3>
+                        <p>An elegant salon website with appointment booking and service showcase.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">How It Works</div>
+                <h2>Simple <span>4-Step</span> Process</h2>
+                <p>Getting your dream website is easier than you think. Here's how we make it happen.</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-comments"></i></div>
+                        <h3>Discovery Call</h3>
+                        <p>We hop on a free 30-minute call to understand your business, goals, and vision for your website.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-pencil-ruler"></i></div>
+                        <h3>Design & Prototype</h3>
+                        <p>Our designers create a stunning mockup of your website. You review and we refine until it's perfect.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-code"></i></div>
+                        <h3>Development</h3>
+                        <p>We build your website with clean code, fast performance, mobile-friendly design, and all the features you need.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-rocket"></i></div>
+                        <h3>Launch & Support</h3>
+                        <p>We launch your site, train you on how to use it, and provide ongoing support to keep everything running smoothly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Testimonials</div>
+                <h2>What Our <span>Clients Say</span></h2>
+                <p>Don't just take our word for it — hear from business owners who love their new websites.</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"WebCraft completely transformed our online presence. Since launching our new website, our reservations have increased by 40%. The online menu is gorgeous!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <strong>Maria Rodriguez</strong>
+                                <span>Owner, The Rustic Table</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"As a small café owner, I was worried about the cost. WebCraft made it so affordable and the results blew me away. Our online orders have tripled!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <strong>James Chen</strong>
+                                <span>Owner, Brew & Bean Café</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The team at WebCraft understood exactly what we needed. Our bakery website now lets customers order custom cakes online. It's been a game-changer for us!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <strong>Sarah Thompson</strong>
+                                <span>Owner, Golden Crust Bakery</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Professional, fast, and incredibly affordable. They delivered our website in just 10 days and it looks like something a big agency would charge 10x for."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <strong>David Park</strong>
+                                <span>Owner, Style Studio Salon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots" id="sliderDots"></div>
+                    <button class="slider-btn next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Pricing</div>
+                <h2>Affordable Plans for <span>Every Business</span></h2>
+                <p>No hidden fees, no surprises. Choose a plan that works for your business.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <p>Perfect for new businesses</p>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">499</span>
+                            <span class="period">one-time</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Up to 5 Pages</li>
+                        <li><i class="fas fa-check"></i> Mobile Responsive</li>
+                        <li><i class="fas fa-check"></i> Contact Form</li>
+                        <li><i class="fas fa-check"></i> Basic SEO Setup</li>
+                        <li><i class="fas fa-check"></i> Social Media Links</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Online Ordering</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Reservation System</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Monthly Maintenance</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Started</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <p>Best for growing businesses</p>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">999</span>
+                            <span class="period">one-time</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Up to 10 Pages</li>
+                        <li><i class="fas fa-check"></i> Mobile Responsive</li>
+                        <li><i class="fas fa-check"></i> Contact Form</li>
+                        <li><i class="fas fa-check"></i> Advanced SEO</li>
+                        <li><i class="fas fa-check"></i> Social Media Integration</li>
+                        <li><i class="fas fa-check"></i> Online Ordering / Menu</li>
+                        <li><i class="fas fa-check"></i> Reservation System</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Monthly Maintenance</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <p>Full service & ongoing support</p>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">1,999</span>
+                            <span class="period">one-time</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited Pages</li>
+                        <li><i class="fas fa-check"></i> Mobile Responsive</li>
+                        <li><i class="fas fa-check"></i> Advanced Forms</li>
+                        <li><i class="fas fa-check"></i> Full SEO Package</li>
+                        <li><i class="fas fa-check"></i> Full Social Integration</li>
+                        <li><i class="fas fa-check"></i> Online Ordering / Menu</li>
+                        <li><i class="fas fa-check"></i> Reservation System</li>
+                        <li><i class="fas fa-check"></i> 6 Months Maintenance</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Take Your Business Online?</h2>
+                <p>Join 200+ small businesses who've already transformed their online presence with WebCraft. Let's build something amazing together.</p>
+                <div class="cta-btns">
+                    <a href="#contact" class="btn btn-white">
+                        Start Your Project
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="tel:+15551234567" class="btn btn-transparent">
+                        <i class="fas fa-phone"></i>
+                        (555) 123-4567
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Get In Touch</div>
+                <h2>Let's Build Your <span>Dream Website</span></h2>
+                <p>Fill out the form below and we'll get back to you within 24 hours with a free quote.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>123 Creative Street<br>Design City, DC 10001</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>hello@webcraftstudio.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon – Fri: 9AM – 6PM<br>Sat: 10AM – 2PM</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="business">Business Type *</label>
+                            <select id="business" name="business" required>
+                                <option value="">Select your business type</option>
+                                <option value="restaurant">Restaurant</option>
+                                <option value="cafe">Café / Coffee Shop</option>
+                                <option value="bakery">Bakery</option>
+                                <option value="salon">Salon / Spa</option>
+                                <option value="fitness">Fitness Studio</option>
+                                <option value="retail">Retail Store</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Budget Range</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select your budget</option>
+                            <option value="starter">$499 – Starter</option>
+                            <option value="professional">$999 – Professional</option>
+                            <option value="premium">$1,999 – Premium</option>
+                            <option value="custom">Custom / Not Sure</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tell Us About Your Project *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Describe your business and what you'd like in your website..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Thank you! We've received your message and will get back to you within 24 hours.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo">
+                        <i class="fas fa-code"></i>
+                        Web<span>Craft</span>
+                    </a>
+                    <p>We build beautiful, affordable websites for small businesses. Let us help you create an online presence that brings in more customers.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Restaurant Websites</a></li>
+                        <li><a href="#">Café Websites</a></li>
+                        <li><a href="#">Bakery Websites</a></li>
+                        <li><a href="#">Salon Websites</a></li>
+                        <li><a href="#">Local SEO</a></li>
+                        <li><a href="#">Online Ordering</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to get tips on growing your small business online.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 WebCraft Studio. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
